@@ -1,6 +1,6 @@
 ## Example AI System Card
 
-* = required for all system cards  
+`*` = required for all system cards
 (if applicable) = include when the system has that feature, artifact, or evidence
 
 ### I. System Identity, Purpose, and Governance
