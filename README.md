@@ -9,7 +9,7 @@
 #### Title / system name *
 State the official name of the system.
 
-#### System summary and business purpose *
+#### System summary and organizational purpose *
 Summarize what the system does and why it exists.
 
 #### Authors, owners, stakeholders, and contact information *
