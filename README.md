@@ -1,6 +1,6 @@
 Copyright © HallResearch.ai. Some rights reserved.
 
-Licensed under CC BY-NC-SA 4.0. You may share and adapt this material for noncommercial use with attribution to HallResearch.ai and the same license for derivatives.
+Licensed under CC BY 4.0. You may share and adapt this material for with attribution to HallResearch.ai.
 
 ## Example AI System Card
 
