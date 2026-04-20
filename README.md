@@ -16,10 +16,13 @@ Summarize what the system does and why it exists.
 List the people or teams responsible for building, owning, reviewing, or supporting the system with contact information.
 
 #### Version, date, and revision history *
-Record the current version, document date, and major changes over time.
+Record the current version, document date, and major changes over time. For important, high-risk, or systems with planned maintenance, include a revision table. 
 
 #### Approval / review status and governance functions *
 State the current review status and identify relevant governance, legal, risk, or compliance functions.
+
+#### Human-in-the-loop (HITL) roles and interventions
+Explain where people review, approve, correct, escalate, or override system behavior.
 
 #### Privacy impact assessment
 Summarize any privacy review, key findings, and resulting controls.
@@ -68,35 +71,44 @@ Provide a diagram showing the main components and how they interact.
 List all material system components and their roles.
 
 - **Data preprocessing** (if applicable)
+
   Provide a short description of any ETL, data cleaning, annotation, labeling, or other preprocessing.
 - **Data resources**:
   - **Training, validation, or testing data** (if applicable)
+    
     Describe any data used for training and testing; include any relevant benchmark datasets.
-  - **Knowledge bases or grounding sources** (if applicable) 
+  - **Knowledge bases or grounding sources** (if applicable)
+    
     Identify the knowledge sources used to ground system behavior.  
-- **Vendor models or APIs***  (if applicable)
+- **Vendor models or APIs*** (if applicable)
+  
   Briefly identify each vendor-provided model, service, or API used.
-- **Internally developed models** (if applicable)  
+- **Internally developed models** (if applicable)
+  
   Briefly identify each internally built model and its role.
-- **Prompt or orchestration layers** (if applicable) 
+- **Prompt or orchestration layers** (if applicable)
+  
   Describe any prompting, routing, planning, or orchestration logic.
-- **Retrieval infrastructure** (if applicable) 
+- **Retrieval infrastructure** (if applicable)
+  
   Describe any retrieval layer used to find or rank information.
-- **Business rules, guardrails, or filters** (if applicable) 
+- **Business rules, guardrails, or filters** (if applicable)
+  
   Describe any rules, thresholds, filters, or policy logic applied.
-- **Tool-use or action components** (if applicable) 
+- **Tool-use or action components** (if applicable)
+  
   Describe any tools, actions, or external system calls the system can trigger.
 
-For each material component, document:
-- **Software stack and version**  
+For each material component, also document:
+- **Software stack and version**
+  
   Note the relevant software, platform, or API version.
-- **Inputs and outputs**  
+- **Inputs and outputs**
+  
   Name the main inputs received and outputs produced.
-- **Key settings or parameters**  
+- **Key settings or parameters**
+  
   Note important settings, thresholds, or configurable parameters.
-
-#### Human-in-the-loop (HITL) roles and interventions
-Explain where people review, approve, correct, escalate, or override system behavior.
 
 #### Upstream and downstream dependencies
 Identify the systems, services, data sources, and processes this system depends on or affects.
