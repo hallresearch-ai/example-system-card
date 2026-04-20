@@ -13,7 +13,7 @@ State the official name of the system.
 Summarize what the system does and why it exists.
 
 #### Authors, owners, stakeholders, and contact information *
-List the people or teams responsible for building, owning, reviewing, or supporting the system.
+List the people or teams responsible for building, owning, reviewing, or supporting the system with contact information.
 
 #### Version, date, and revision history *
 Record the current version, document date, and major changes over time.
