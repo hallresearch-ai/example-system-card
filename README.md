@@ -1,6 +1,6 @@
 Copyright © HallResearch.ai. Some rights reserved.
 
-Licensed under CC BY 4.0. You may share and adapt this material for with attribution to HallResearch.ai.
+Licensed under CC BY 4.0. You may share and adapt this material with attribution to HallResearch.ai.
 
 ## Example AI System Card
 
@@ -84,7 +84,7 @@ List all material system components and their roles.
   - **Knowledge bases or grounding sources** (if applicable)
     
     Identify the knowledge sources used to ground system behavior.  
-- **Vendor models or APIs*** (if applicable)
+- **Vendor models or APIs** (if applicable)
   
   Briefly identify each vendor-provided model, service, or API used.
 - **Internally developed models** (if applicable)
